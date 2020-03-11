@@ -7,6 +7,8 @@
   <title>php-oop-dipendenti</title>
 </head>
 <body>
-
+  <?php
+    include __DIR__.'/instances/all_Dipendenti.php';
+  ?>
 </body>
 </html>

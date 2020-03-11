@@ -9,7 +9,7 @@
      protected $turnoPomeriggio;
      protected $turnoSera;
      // ↓ metodo __costructor() ↓
-     public function __constructor($nome, $cognome, $codFis) {
+     public function __constructor($nome, $cognome, $codFis, $turnoMattina, $turnoPomeriggio, $turnoSera) {
        setNome($nome);
        setCognome($cognome);
        setCodFis($codFis);
