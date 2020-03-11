@@ -20,44 +20,38 @@
      // ↓ metodi classe ↓
      public function setNome($nome) {
        if(!empty($nome)) $this->nome = $nome;
-       var_dump($this->nome);
      }
      public function setCognome($cognome) {
        if(!empty($cognome)) $this->cognome = $cognome;
-       var_dump($this->cognome);
      }
      public function setCodFis($codFis) {
        if(!empty($codFis)) $this->codFis = $codFis;
-       var_dump($this->codFis);
      }
      public function setTurnoMattina($turnoMattina) {
        if(!empty($turnoMattina)) $this->turnoMattina = $turnoMattina;
-       var_dump($this->turnoMattina);
      }
      public function setTurnoPomeriggio($turnoPomeriggio) {
        if(!empty($turnoPomeriggio)) $this->turnoPomeriggio = $turnoPomeriggio;
-       var_dump($this->turnoPomeriggio);
      }
      public function setTurnoSera($turnoSera) {
        if(!empty($turnoSera)) $this->turnoSera = $turnoSera;
-       var_dump($this->turnoSera);
      }
-     public function getName($nome) {
+     public function getNome() {
        var_dump($this->nome);
      }
-     public function getCognome($cognome) {
+     public function getCognome() {
        var_dump($this->cognome);
      }
-     public function getCodFis($codFis) {
+     public function getCodFis() {
        var_dump($this->codFis);
      }
-     public function getTurnoMattina($turnoMattina) {
+     public function getTurnoMattina() {
        var_dump($this->turnoMattina);
      }
-     public function getTurnoPomeriggio($turnoPomeriggio) {
+     public function getTurnoPomeriggio() {
        var_dump($this->turnoPomeriggio);
      }
-     public function getTurnoSera($turnoSera) {
+     public function getTurnoSera() {
        var_dump($this->turnoSera);
      }
    }
