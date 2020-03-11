@@ -1,5 +1,5 @@
 <?php
-  require_once __DIR_.'/../Dipendente.php';
+  require_once __DIR__.'/../Dipendente.php';
   class Lavapiatti extends Dipendente
     {
       private $proprieta1 = 'gino';

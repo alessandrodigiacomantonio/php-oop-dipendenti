@@ -1,7 +1,6 @@
 <?php
-  require_once __DIR__.'/../../classes/Dipendente/Lavapiatti.php';
-  $lavapiatti = new Cameriere('Carlo', 'Conti', 'CRL68D21B565O', true, false, true);
-
+  require_once "F://Alessandro/Boolean.careers/Esercitazioni/mamp_public/php-oop-dipendenti/classes/Dipendente/Lavapiatti.php";
+  $lavapiatti = new Lavapiatti('Carlo', 'Conti', 'CRL68D21B565O', true, false, true);
   $all_Lavapiatti = [
     $lavapiatti,
   ];
