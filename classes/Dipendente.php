@@ -8,15 +8,17 @@
      protected $turnoMattina;
      protected $turnoPomeriggio;
      protected $turnoSera;
+
      // ↓ metodo __costructor() ↓
-     public function __constructor($nome, $cognome, $codFis, $turnoMattina, $turnoPomeriggio, $turnoSera) {
-       setNome($nome);
-       setCognome($cognome);
-       setCodFis($codFis);
-       setTurnoMattina($turnoMattina);
-       setTurnoPomeriggio($turnoPomeriggio);
-       setTurnoSera($turnoSera);
+     public function __construct($nome, $cognome, $codFis, $turnoMattina, $turnoPomeriggio, $turnoSera) {
+       $this->setNome($nome);
+       $this->setCognome($cognome);
+       $this->setCodFis($codFis);
+       $this->setTurnoMattina($turnoMattina);
+       $this->setTurnoPomeriggio($turnoPomeriggio);
+       $this->setTurnoSera($turnoSera);
      }
+
      // ↓ metodi classe ↓
      public function setNome($nome) {
        if(!empty($nome)) $this->nome = $nome;
@@ -54,4 +56,5 @@
      public function getTurnoSera() {
        var_dump($this->turnoSera);
      }
+
    }
